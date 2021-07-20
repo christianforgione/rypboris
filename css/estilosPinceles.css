@@ -8,28 +8,23 @@
 /*Inicio de SCSS importados*/
 /*----------------------------------------comienzo CSS para 320pixeles-----------------------------*/
 #quienes {
-  margin-bottom: 40px;
-}
+  margin-bottom: 40px; }
 
 .parrafoContacto {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .parrafoQuienes {
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 label {
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 button,
 input,
 label,
 select,
 textarea {
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
 #fotosProductos {
   display: flex;
@@ -37,72 +32,56 @@ textarea {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .producto {
-  width: 80%;
-}
+  width: 80%; }
 
+/*
 div a .producto {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-
+*/
 #contacto {
-  width: 100%;
-}
+  width: 100%; }
 
 #comments {
-  width: 90%;
-}
+  width: 90%; }
 
 /*----------------------------------------------------------------FIN pantalla 320---------------------------------------------------------------------------------*/
 /*INICIO media 600px*/
 @media only screen and (min-width: 600px) {
   #fotosProductos {
-    font-size: 20px;
-  }
+    font-size: 20px; }
   .parrafoQuienes {
-    font-size: 18px;
-  }
-}
+    font-size: 18px; } }
 
 /*----------------------------------------------------------------FIN MEDIA 600PX---------------------------------------------------------------------------------*/
 @media only screen and (min-width: 1200px) {
   #fotosProductos {
     flex-direction: row;
-    font-size: 20px;
-  }
+    font-size: 20px; }
   .producto {
-    width: 500px;
-  }
+    width: 500px; }
   #rodillos:hover {
     transform: scale(1.1);
-    transition: all 1s;
-  }
+    transition: all 1s; }
   #pinceles:hover {
     transform: scale(1.1);
-    transition: all 1s;
-  }
+    transition: all 1s; }
   #otros:hover {
     transform: scale(1.1);
-    transition: all 1s;
-  }
+    transition: all 1s; }
   #contacto {
-    font-size: 20px;
-  }
+    font-size: 20px; }
   .parrafoContacto {
-    font-size: 20px;
-  }
+    font-size: 20px; }
   #comments {
-    width: 70%;
-  }
+    width: 70%; }
   label {
-    font-size: 18px;
-  }
-}
+    font-size: 18px; } }
 
 /*---------------------------------------------------------- Inicio Media 320px--------------------------------------------------*/
 #fotosProductos {
@@ -111,32 +90,26 @@ div a .producto {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .producto {
   width: 80%;
   justify-content: space-evenly;
-  margin: 5px;
-}
+  margin: 5px; }
 
 div a .producto {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
 
 /*----------------------------------------------------------FIN MEDIA 320px------------------------------------------------------*/
 /*---------------------------------------------------------- Inicio Media 600px--------------------------------------------------*/
 @media only screen and (min-width: 600px) {
   .producto {
     width: 60%;
-    justify-content: stretch;
-  }
+    justify-content: stretch; }
   .producto:hover {
-    transform: scale(1.1);
-  }
-}
+    transform: scale(1.1); } }
 
 /*----------------------------------------------------------FIN MEDIA 600px------------------------------------------------------*/
 /*----------------------------------------------------------Inicio Media 1080px--------------------------------------------------*/
@@ -149,16 +122,12 @@ div a .producto {
     row-gap: 10px;
     /*grid-template-areas:
       "foto1 foto2 foto3"
-      "foto4 foto5 foto6"; */
-  }
+      "foto4 foto5 foto6"; */ }
   .producto {
     width: 80%;
-    justify-content: stretch;
-  }
+    justify-content: stretch; }
   .producto:hover {
-    transform: scale(1.1);
-  }
-}
+    transform: scale(1.1); } }
 
 /*----------------------------------------------------------FIN MEDIA 1080px------------------------------------------------------*/
 /* .card{
@@ -168,54 +137,42 @@ div a .producto {
 */
 .faqs {
   margin-top: 50px;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 @media only screen and (min-width: 600px) {
   .faqs {
-    font-size: 18px;
-  }
-}
+    font-size: 18px; } }
 
 @media only screen and (min-width: 1200px) {
   .faqs {
-    font-size: 20px;
-  }
-}
+    font-size: 20px; } }
 
 .tarjeta {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 20px;
-}
-.tarjeta .tarjeta__lista {
-  list-style-type: none;
-}
-.tarjeta__elemento {
-  display: inline-block;
-}
-.tarjeta__elemento:hover {
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.tarjeta__img--activo {
-  border-color: white;
-  border-width: 20px;
-  border-style: dashed;
-}
+  margin-top: 20px; }
+  .tarjeta .tarjeta__lista {
+    list-style-type: none; }
+  .tarjeta__elemento {
+    display: inline-block; }
+  .tarjeta__elemento:hover {
+    transform: scale(1.1);
+    transition: all 1s; }
+  .tarjeta__img--activo {
+    border-color: white;
+    border-width: 20px;
+    border-style: dashed; }
 
 .tarjeta__img--activo {
   border-color: white;
   border-style: solid;
-  border-width: 15px;
-}
+  border-width: 15px; }
 
 /*INICIO SCSS PARA 320px y incluye menus grande en modo NONE*/
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 header {
   width: 100%;
@@ -227,46 +184,34 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50% 50%;
-  grid-template-areas:
-    "logo nav"
-    "logo iconos";
+  grid-template-areas: "logo nav" "logo iconos";
   justify-items: end;
-  align-items: center;
-}
-header #logo {
-  grid-area: logo;
-  height: 95%;
-  justify-self: start;
-  align-self: start;
-  margin-left: 14%;
-}
-header #logo #loguito {
-  height: 100%;
-}
-header #logo:hover {
-  transform: scale(1.1);
-}
-header .dropdown {
-  grid-area: nav;
-  align-self: end;
-  justify-self: center;
-  margin-right: 5px;
-}
-header .dropdown .dropdown-item {
-  font-family: calibri;
-}
-header .dropdown .dropdown-item:hover {
-  color: black;
-}
-header .dropdown .dropdown-item:visited {
-  color: black;
-}
-header #iconosDeRedes {
-  display: none;
-}
-header #menu {
-  display: none;
-}
+  align-items: center; }
+  header #logo {
+    grid-area: logo;
+    height: 95%;
+    justify-self: start;
+    align-self: start;
+    margin-left: 14%; }
+    header #logo #loguito {
+      height: 100%; }
+  header #logo:hover {
+    transform: scale(1.1); }
+  header .dropdown {
+    grid-area: nav;
+    align-self: end;
+    justify-self: center;
+    margin-right: 5px; }
+    header .dropdown .dropdown-item {
+      font-family: calibri; }
+    header .dropdown .dropdown-item:hover {
+      color: black; }
+    header .dropdown .dropdown-item:visited {
+      color: black; }
+  header #iconosDeRedes {
+    display: none; }
+  header #menu {
+    display: none; }
 
 body {
   font-family: calibri;
@@ -277,19 +222,16 @@ body {
   margin: auto;
   background-image: url(../fotos/fondo14.jpg);
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .card {
-  background: none;
-}
+  background: none; }
 
 h1 {
   background: #000000;
   color: white;
   font-family: Russo One, calibri;
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 h2 {
   background: #000000;
@@ -297,8 +239,7 @@ h2 {
   font-family: Russo One, calibri;
   margin-top: 50px;
   margin-bottom: 5px;
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 h3 {
   background: #000000;
@@ -306,113 +247,85 @@ h3 {
   font-family: Russo One, calibri;
   margin-top: 50px;
   margin-bottom: 5px;
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 .botonesInicioAtras {
-  margin-top: 30px;
-}
-.botonesInicioAtras a {
-  text-decoration: none;
-  color: white;
-}
-.botonesInicioAtras a:visited {
-  color: white;
-}
+  margin-top: 30px; }
+  .botonesInicioAtras a {
+    text-decoration: none;
+    color: white; }
+  .botonesInicioAtras a:visited {
+    color: white; }
 
 footer p {
   font-family: helvetica;
-  font-size: 10px;
-}
+  font-size: 10px; }
 
 #carrusel {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 10px;
-  margin-bottom: 10px;
-}
-#carrusel #carouselExampleControls {
-  width: 80%;
-}
-#carrusel #carouselExampleIndicators {
-  width: 80%;
-}
+  margin-bottom: 10px; }
+  #carrusel #carouselExampleControls {
+    width: 80%; }
+  #carrusel #carouselExampleIndicators {
+    width: 80%; }
 
 hr {
-  margin-top: 100px;
-}
+  margin-top: 100px; }
 
 /*---------------------------------------------------------------------------FIN SCSS PARA 320px-----------------------------------------------------------------------*/
 /*Inicio Media para 600px*/
 @media only screen and (min-width: 600px) {
   .dropdown {
-    display: none;
-  }
+    display: none; }
   header #iconosDeRedes {
     display: block;
     grid-area: iconos;
     align-self: center;
     justify-self: center;
-    margin-bottom: 5px;
-  }
-  header #iconosDeRedes .icono {
-    height: 40px;
-  }
-  header #iconosDeRedes .icono:hover {
-    transform: scale(1.1);
-  }
+    margin-bottom: 5px; }
+    header #iconosDeRedes .icono {
+      height: 40px; }
+    header #iconosDeRedes .icono:hover {
+      transform: scale(1.1); }
   header #menu {
     display: block;
     grid-area: nav;
     align-self: end;
-    justify-self: center;
-  }
-  header #menu a {
-    text-decoration: none;
-    color: white;
-  }
-  header #menu a:visited {
-    color: white;
-  }
+    justify-self: center; }
+    header #menu a {
+      text-decoration: none;
+      color: white; }
+    header #menu a:visited {
+      color: white; }
   header ul {
-    list-style-type: none;
-  }
-  header ul li {
-    display: inline-block;
-    font-family: monoton;
-    font-size: 15px;
-    margin-inline: 5px;
-  }
-  header ul li:hover {
-    transform: scale(1.1);
-  }
+    list-style-type: none; }
+    header ul li {
+      display: inline-block;
+      font-family: monoton;
+      font-size: 15px;
+      margin-inline: 5px; }
+    header ul li:hover {
+      transform: scale(1.1); }
   #carrusel #carouselExampleControls {
-    width: 70%;
-  }
+    width: 70%; }
   #carrusel #carouselExampleIndicators {
-    width: 70%;
-  }
-}
+    width: 70%; } }
 
 /*---------------------------------------------------------------------------FIN MEDIA 600px---------------------------------------------------------------------------*/
 /*INICIO MEDIA 1080PX*/
 @media only screen and (min-width: 1080px) {
   header #iconosDeRedes .icono {
-    height: 50px;
-  }
+    height: 50px; }
   header #menu li {
-    font-size: 20px;
-  }
+    font-size: 20px; }
   .dropdown {
-    display: none;
-  }
+    display: none; }
   #carrusel #carouselExampleControls {
-    width: 50%;
-  }
+    width: 50%; }
   #carrusel #carouselExampleIndicators {
-    width: 50%;
-  }
-}
+    width: 50%; } }
 
 /*---------------------------------------------------------------------------FIN MEDIA 1080px---------------------------------------------------------------------------*/
