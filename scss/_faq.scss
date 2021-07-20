@@ -1,0 +1,17 @@
+/* .card{
+    background-color: $colorBody;
+}
+
+*/
+.faqs{
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+@media only screen and (min-width:600px){
+    .faqs{font-size: 18px;}
+}
+@media only screen and (min-width: 1200px){
+    .faqs{font-size: 20px;}
+
+}

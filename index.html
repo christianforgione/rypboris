@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rodillos y Pinceles Boris. Somos fabricantes de insumos para el pintor">
+    <meta name="keywords" content="rodillos, pinceles, discos, otros, fabrica, fabricantes, cuero, tela, sintetico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilosPinceles.css">
+
+    <title>Rodillos y Pinceles Boris</title>
+</head>
+
+
+<body>
+  <!--Inicio de header-->
+    <header> 
+         
+        <div id="logo">
+            <a href="index.html"> <img id="loguito"  src="iconos/logo6.png" alt="logo" class="animate__animated animate__bounceInLeft" >  </a>
+         </div>
+    
+             <ul id="menu" class="animate__animated animate__bounceInRight"> 
+                 <li> <a href="index.html">Inicio</a></li>   
+                 <li> <a href="#quienes">Nosotros</a></li>   <!--este link lleva a un punto en especifico dentro del index. lleva un id-->
+                 <li> <a href="#productos">Productos</a></li>
+                 <li> <a href="#contacto">Contacto</a></li>
+                 <li> <a href="html/faq.html">FAQs</a></li> <!--este link lleva a un punto en especifico dentro del index. lleva un id-->
+             </ul>
+    
+             <div id="iconosDeRedes" class="animate__animated animate__bounceInRight">
+                <img src="iconos/insta.png" alt="instagram"  class="icono"> 
+                <img src="iconos/whatsapp.png" alt="whatsapp"   class="icono"> 
+                <img src="iconos/mail2.png" alt="mail"   class="icono">
+            </div>
+    
+             <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                  <li><a class="dropdown-item" href="#productos">Productos</a></li>
+                  <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                  <li><a class="dropdown-item" href="#quienes">Nosotros</a></li>
+                  <li><a class="dropdown-item" href="html/faq.html">FAQs</a></li>
+    
+                </ul>
+              </div>
+    
+    
+    </header>  
+  <!--Fin de header-->
+
+<main>
+  <!--inicio carrousel-->
+<div id="carrusel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="fotos/foto4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/foto2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/foto3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/foto4.jpg" class="d-block w-100" alt="...">
+          </div><div class="carousel-item">
+            <img src="fotos/foto5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<!--Fin carrousel-->
+
+
+    
+<!--Inicio de h1 productos-->
+<h1 id="productos">Nuestros productos </h1>
+        <div id="fotosProductos">
+            <div id="rodillos">
+                <p>Rodillos</p>
+                <a href="html/rodillos.html"><img class="producto" src="fotos/rodillo.jpg" alt="pinceles"> </a>
+            </div>
+            <div id="pinceles">
+                <p>Pinceles</p>
+                <a href="html/pinceles.html"><img class="producto" src="fotos/brocha.jpg" alt="pinceles"> </a>
+            </div>
+            <div id="otros">
+                <p>Otros</p>
+                <a href="html/otros.html"><img class="producto" src="fotos/disco.jpg" alt="pinceles"> </a>
+            </div>
+        </div>
+<!--Fin de h1 productos-->
+
+
+<!--Inicio de h2 quienes somos-->
+
+<h2 id="quienes">Quienes Somos</h2>
+<button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#who" aria-expanded="false" aria-controls="collapseExample">
+  Leer el artículo
+</button>
+</p>
+<div class="collapse" id="who">
+<div class="card card-body">
+  
+ <p class="parrafoQuienes">Acá va una descripcion de la empresa - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+ Doloribus quo, aliquam tenetur numquam maxime et iste ullam, dolor esse porro nulla sed eius ex autem accusamus sint recusandae temporibus officia quos dignissimos ratione rerum. 
+ Aut corporis similique facere id suscipit saepe atque consectetur debitis, velit ipsa neque tempore possimus sit eligendi doloribus mollitia consequuntur molestias voluptatum recusandae cum. 
+ Consequuntur quo laborum quod dolorum repellat consequatur at, ea odio magni recusandae cumque nemo similique aliquid sapiente nam ex inventore est dolorem quisquam. 
+ Perferendis molestiae beatae error ullam quidem optio facilis, odit repellat dolorem animi repellendus quis, consequuntur explicabo repudiandae voluptates corporis. 
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+ Doloribus quo, aliquam tenetur numquam maxime et iste ullam, dolor esse porro nulla sed eius ex autem accusamus sint recusandae temporibus officia quos dignissimos ratione rerum. 
+ Aut corporis similique facere id suscipit saepe atque consectetur debitis, velit ipsa neque tempore possimus sit eligendi doloribus mollitia consequuntur molestias voluptatum recusandae cum. 
+ Consequuntur quo laborum quod dolorum repellat consequatur at, ea odio magni recusandae cumque nemo similique aliquid sapiente nam ex inventore est dolorem quisquam. 
+ Perferendis molestiae beatae error ullam quidem optio facilis, odit repellat dolorem animi repellendus quis, consequuntur explicabo repudiandae voluptates corporis. 
+ Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Doloribus quo, aliquam tenetur numquam maxime et iste ullam, dolor esse porro nulla sed eius ex autem accusamus sint recusandae temporibus officia quos dignissimos ratione rerum. 
+  Aut corporis similique facere id suscipit saepe atque consectetur debitis, velit ipsa neque tempore possimus sit eligendi doloribus mollitia consequuntur molestias voluptatum recusandae cum. 
+  Consequuntur quo laborum quod dolorum repellat consequatur at, ea odio magni recusandae cumque nemo similique aliquid sapiente nam ex inventore est dolorem quisquam. 
+  Perferendis molestiae beatae error ullam quidem optio facilis, odit repellat dolorem animi repellendus quis, consequuntur explicabo repudiandae voluptates corporis. </p>
+</div>
+</div>
+<!--Fin de h2 quienes somos-->
+
+<!--Inicio de h3 Contacto-->
+<section id="contacto">
+    <h3>Contacto</h2>
+        
+            <strong><p class="parrafoContacto">¡Podes enviarnos tu consulta o sugerencia a través de este formulario!.</p>
+             <p class="parrafoContacto">Nos pondremos en contacto a la brevedad</p></strong>
+<br>
+          <form action="http://pagina-de-pruba/" method="POST">
+
+            <div>
+        <label for="fullName">Nombre y Apellido</label>
+        <input placeholder="Tu nombre aqui" id="fullName" name="fullname" type="text" required>
+            </div>
+
+            <div>
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email" placeholder="ejemplo@borisryp.com" required>
+            </div>
+
+            <div>
+        <label for="interest">¿En que podemos ayudarte?</label>
+        <select name="interest" id="interest">
+            <option value="1">Ventas</option>
+            <option value="2">Consultas</option>
+            <option value="3">Garantías</option>
+            <option value="4">Envíos</option>
+            <option value="Otro">Otro</option>
+        </select>
+            </div>
+
+             <div>
+        <label for="comments">Mensaje</label><br>
+        <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+            </div>
+            
+            <div>
+        <label>
+            <input name="spam_me" value="true" type="checkbox"> Quiero que me envíen noticias y ofertas!
+        </label>
+            </div>
+            
+
+    <button type="submit"class="btn btn-dark">
+        Enviar ✉
+    </button>
+    <button type="reset" class="btn btn-secondary">
+        Limpiar
+    </button>
+
+        </form>
+</section>
+<!--Fin de h3 Contacto-->
+
+<hr>
+
+<!--Inicio de footer-->
+<footer>
+     
+    <br>
+   <P>©Diseño By Linngor. <em>Derechos e izquierdos reservados</em></p>
+</footer>
+</main>
+<!--Fin de footer-->
+
+<!--script de boostrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

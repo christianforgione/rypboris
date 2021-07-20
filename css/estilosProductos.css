@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  header {
+    background: url(../fotos/fondo4.jpg);
+    position: sticky;
+    height: 150px;
+    top: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      "logo nav"
+      "logo iconos";
+    justify-items: end;
+    align-items: center;
+  }  
+
+  body {
+    font-family: calibri;
+    color: white;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(37, 19, 81);
+  }
+
+  #logo {
+    grid-area: logo;
+    height: 95%;
+    justify-self: start;
+    align-self: start;
+    margin-left: 14%;
+  }
+
+
+  
+  #loguito {
+    height: 100%;
+  }
+
+  #logo:hover {
+    transform: scale(1.1);
+  }
+
+  #iconosDeRedes {
+    display: none;
+    grid-area: iconos;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 5px;
+  }
+  .icono {
+    height: 50px;
+  }
+  .icono:hover {
+    transform: scale(1.1);
+  }
+
+
+  #menu {
+    display: none;
+    grid-area: nav;
+    align-self: end;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    background: #7d2e68;
+    color: rgb(255, 255, 255);
+    font-family: Russo One, calibri;
+    font-size: 30px;
+  }
+
+  footer {
+    font-family: Helvetica;
+    font-size: 9px;
+    margin-bottom: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    font-family: Monoton;
+    font-size: 20px;
+    margin-inline: 5px;
+  }
+
+  li:hover {
+    transform: scale(1.1);
+  }
+
+ 
+
+
+  #fotosProductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+
+}
+  .producto{
+      width: 80%;
+      justify-content: space-evenly;
+      margin: 5px;
+  }
+  div a .producto {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+ 
+
+  button{
+      margin-top: 10%;
+  }
+  
+  
+.dropdown{
+   
+    grid-area: nav;
+    align-self: end;
+    justify-self: center;
+    margin-right: 5px;
+}
+
+.dropdown-item{
+    font-family: calibri;
+    
+    
+}
+.dropdown-item:hover{
+    color: black;
+}
+.dropdown-item:visited{
+color: black;
+}
+
+/*----------Fin css para 320px-------------------*/
+
+
+/*Inicio media para 600px*/
+@media only screen and (min-width:600px){
+
+    .dropdown{
+        display: none;
+    }
+
+    #iconosDeRedes{
+        display: block;
+        grid-area: iconos;
+        align-self: center;
+        justify-self: center;
+        margin-bottom: 5px;
+      }
+    
+    
+      #menu{
+        display: block;
+        grid-area: nav;
+        align-self: end;
+        justify-self: center;
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+
+      li {
+        
+        
+        font-size: 10px;
+        margin-inline: 3px;
+      }
+      
+.icono{
+    height: 35px;
+}
+a {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+
+  a:hover{
+      color: white;
+  }
+
+  .producto{  width: 60%;
+    justify-content: stretch;
+  
+}
+.producto:hover{
+ transform: scale(1.1)
+}
+}
+/*Fin media 600px*/
+
+/*Inicio media 1080px*/
+@media only screen and (min-width: 1080px){
+    .dropdown{
+        display: none;
+    }
+
+    #iconosDeRedes{
+        display: block;
+        grid-area: iconos;
+        align-self: center;
+        justify-self: center;
+        margin-bottom: 5px;
+      }
+    
+    
+      #menu{
+        display: block;
+        grid-area: nav;
+        align-self: end;
+        justify-self: center;
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+
+      li {
+        
+        
+        font-size: 20px;
+        margin-inline: 5px;
+      }
+      
+.icono{
+    height: 50px;
+}
+
+
+#fotosProductos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+    row-gap: 10px;
+    /*grid-template-areas:
+      "foto1 foto2 foto3"
+      "foto4 foto5 foto6"; */
+ 
+   
+
+
+}
+ .producto{  width: 80%;
+     justify-content: stretch;
+   
+ }
+ .producto:hover{
+  transform: scale(1.1)
+}
+ button{
+    margin-top: 2%;
+}
+
+#arriba{
+    display:none;
+}
+a {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+
+  a:hover{
+      color: white;
+  }
+}
+/*Fin media 1080px*/

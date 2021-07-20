@@ -1,0 +1,282 @@
+/* Antes de empezar hacer en CMD npm run watch-css dentro de la carpeta del sitio*/
+
+/*Variable para Body*/
+$colorBody: url(../fotos/fondo14.jpg);
+
+$fuenteBody: calibri;
+$textoColor: black;
+
+/* Variables para los H*/
+$fuenteH: Russo One, calibri;
+$colorFondoH:#000000;
+$colorFondoHalterno:(186, 189, 141);
+$colorTextoH:white;
+
+
+/*Variables para Links*/
+$colorLink: white;
+$linkVisitado: white;
+
+/*Variables para Header*/
+$fondoHeader: url(../fotos/fondo4.jpg);
+
+
+
+/*Variables para botones*/
+$textoBoton:white;
+$botonVisitado: white;
+
+$textoFooter: white;
+$fuenteFooter:helvetica;
+
+
+/*variable Menu grande*/
+$fuenteLi: monoton;
+
+/*Inicio de SCSS importados*/
+@import "index.scss";
+@import "productos.scss";
+@import "faq.scss";
+@import "operaciones.scss";
+/*INICIO SCSS PARA 320px y incluye menus grande en modo NONE*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+  width: 100%;
+  z-index: +1;
+   background: $fondoHeader;
+    position: sticky;
+    height: 150px;
+    top: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      "logo nav"
+      "logo iconos";
+    justify-items: end;
+    align-items: center;
+
+     #logo {
+          grid-area: logo;
+          height: 95%;
+          justify-self: start;
+          align-self: start;
+          margin-left: 14%;
+          #loguito {
+              height: 100%;
+            }
+
+        } 
+        #logo:hover {
+                 transform: scale(1.1);
+                     }
+      .dropdown{
+        grid-area: nav;
+        align-self: end;
+        justify-self: center;
+        margin-right: 5px;
+      .dropdown-item{
+        font-family: $fuenteBody;
+        
+        
+    }
+      .dropdown-item:hover{
+         color: black;
+  }
+      .dropdown-item:visited{
+        color: black;
+  }
+
+  }  
+#iconosDeRedes {
+        display: none; 
+      }
+    #menu {
+        display: none;
+      }
+
+
+}
+
+
+ body {
+    font-family: $fuenteBody;
+    font-weight: 900;
+    font-size: 20px;
+    color: $textoColor;
+    text-align: center;
+    margin: auto;
+    background-image: $colorBody;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+ .card{background: none;}
+
+  
+h1 {
+    background: $colorFondoH;
+    color: $colorTextoH;
+    font-family: $fuenteH;
+    font-size: 30px;
+  }
+
+h2 {
+    background: $colorFondoH;
+    color: $colorTextoH;
+    font-family: $fuenteH;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+  
+h3 {
+    background: $colorFondoH;
+    color: $colorTextoH;
+    font-family: $fuenteH;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+
+
+  .botonesInicioAtras{ 
+    margin-top: 30px;
+
+    a {
+      text-decoration: none;
+      color: $textoBoton;
+    }
+    a:visited {
+      color: $botonVisitado;
+    }
+    
+  }
+
+  footer {
+           p {
+        font-family: $fuenteFooter;
+        font-size: 10px;
+      }
+    
+  }
+
+  #carrusel {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+#carouselExampleControls{
+width: 80%;
+}
+#carouselExampleIndicators{
+  width: 80%;
+}
+
+}
+
+
+hr{margin-top: 100px;}
+
+
+/*---------------------------------------------------------------------------FIN SCSS PARA 320px-----------------------------------------------------------------------*/
+
+/*Inicio Media para 600px*/
+@media only screen and (min-width:600px){
+
+    .dropdown{
+        display: none;
+    }
+
+    header{
+      #iconosDeRedes {
+        display: block;
+        grid-area: iconos;
+        align-self: center;
+        justify-self: center;
+        margin-bottom: 5px;
+        
+        .icono {
+          height: 40px;
+        }
+
+        .icono:hover {
+        transform: scale(1.1);
+          }
+
+      }
+        #menu{
+        display: block;
+        grid-area: nav;
+        align-self: end;
+        justify-self: center;
+        
+        a {
+            text-decoration: none;
+            color: $colorLink;
+          }
+          a:visited {
+            color: $linkVisitado;
+          }
+        
+      }
+        ul {
+            list-style-type: none;
+            li {
+              display: inline-block;
+              font-family: $fuenteLi;
+              font-size: 15px;
+              margin-inline: 5px;
+            }
+          
+            li:hover {
+              transform: scale(1.1);
+            }
+          }
+    } 
+    #carrusel{
+      #carouselExampleControls{
+        width: 70%;
+        }
+        #carouselExampleIndicators{
+          width: 70%;
+        }
+    }
+}
+/*---------------------------------------------------------------------------FIN MEDIA 600px---------------------------------------------------------------------------*/
+
+/*INICIO MEDIA 1080PX*/
+@media only screen and (min-width: 1080px){
+
+ header{
+        #iconosDeRedes{
+                .icono {height: 50px;}}
+
+        #menu{
+          li{font-size: 20px;}
+              }
+              
+    
+       }
+
+  .dropdown{display: none;}
+ 
+  #carrusel{
+    #carouselExampleControls{
+      width: 50%;
+      }
+      #carouselExampleIndicators{
+        width: 50%;
+      }
+  }
+
+}
+
+
+/*---------------------------------------------------------------------------FIN MEDIA 1080px---------------------------------------------------------------------------*/
+

@@ -1,0 +1,115 @@
+/*----------------------------------------comienzo CSS para 320pixeles-----------------------------*/
+
+#quienes{
+  margin-bottom: 40px;
+ 
+}
+
+
+.parrafoContacto {
+  font-size: 20px;
+}
+ .parrafoQuienes{
+    font-size: 15px;
+   
+   
+  }
+label {
+  font-size: 15px;
+}
+
+button,
+input,
+label,
+select,
+textarea {
+  margin-bottom: 15px;
+}
+
+#fotosProductos{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  font-size: 15px;
+
+  
+}
+.producto{
+  width: 80%;
+}
+
+div a .producto {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#contacto{
+  width: 100%;
+}
+
+#comments{
+  width: 90%;
+}
+/*----------------------------------------------------------------FIN pantalla 320---------------------------------------------------------------------------------*/
+
+/*INICIO media 600px*/
+@media only screen and (min-width:600px){
+
+  #fotosProductos{font-size: 20px;}
+
+  .parrafoQuienes{font-size: 18px;}
+
+}
+/*----------------------------------------------------------------FIN MEDIA 600PX---------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+
+  #fotosProductos {
+    flex-direction: row;
+    font-size: 20px;
+  }
+  .producto{
+    width: 500px;
+  }
+
+  #rodillos:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+
+  #pinceles:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+
+  #otros:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+
+  #contacto{
+    font-size: 20px;
+  }
+    .parrafoContacto {
+      font-size: 20px;
+    }
+  
+    #comments{
+      width: 70%;
+    }
+    
+    label {
+      font-size: 18px;
+    }
+
+
+
+
+
+
+
+}

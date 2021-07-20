@@ -1,0 +1,39 @@
+$borderColor:white;
+
+.tarjeta{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+
+        .tarjeta__lista{
+        list-style-type: none;
+    }
+&__elemento{
+    display: inline-block;}
+    &__elemento:hover{
+    transform: scale(1.1);
+    transition: all 1s;}
+    
+ &__img{
+       &--activo{
+        border-color: $borderColor;
+        border-width: 20px;
+        border-style: dashed;
+    
+}
+ }
+     
+}
+.tarjeta__img--activo{
+@if $borderColor == blue{
+    border-width: 10px;
+    border-style: double;
+}
+@else{
+    border-color: white;
+    border-style: solid;
+    border-width: 15px;
+}
+
+}
