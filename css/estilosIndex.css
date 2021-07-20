@@ -4,12 +4,12 @@
 }
 
 /*----------------------------------------comienzo CSS para 320pixeles-----------------------------*/
-#carrusel{
+#carrusel {
   display: inline-block;
   margin-top: 20px;
   width: 90%;
-  }
-  
+}
+
 body {
   font-family: calibri;
   color: white;
@@ -32,24 +32,21 @@ header {
   justify-items: end;
   align-items: center;
 }
-.dropdown{
-   
+.dropdown {
   grid-area: nav;
   align-self: end;
   justify-self: center;
   margin-right: 5px;
 }
 
-.dropdown-item{
+.dropdown-item {
   font-family: calibri;
-  
-  
 }
-.dropdown-item:hover{
+.dropdown-item:hover {
   color: black;
 }
-.dropdown-item:visited{
-color: black;
+.dropdown-item:visited {
+  color: black;
 }
 
 #logo {
@@ -66,12 +63,10 @@ color: black;
 
 #iconosDeRedes {
   display: none;
-  
 }
 
 #menu {
   display: none;
-  
 }
 
 a {
@@ -95,7 +90,6 @@ li {
 li:hover {
   transform: scale(1.1);
 }
-
 
 h1 {
   background: #7d2e68;
@@ -142,8 +136,6 @@ footer {
   margin-bottom: 5px;
 }
 
-
-
 button,
 input,
 label,
@@ -152,8 +144,7 @@ textarea {
   margin-bottom: 15px;
 }
 
-#fotosProductos{
- 
+#fotosProductos {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -161,7 +152,7 @@ textarea {
   width: 100%;
   font-size: 10px;
 }
-.producto{
+.producto {
   width: 80%;
 }
 
@@ -171,11 +162,11 @@ div a .producto {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-#contacto{
+#contacto {
   width: 100%;
 }
 
-#comments{
+#comments {
   width: 90%;
 }
 
@@ -185,26 +176,17 @@ hr {
 
 /*---------------------Fin de media---------------------------------------*/
 
-
-
-
-
-
-
-
- /*--------------------INICIO DE MEDIA para tablets ----------------------*/
-@media only screen and (min-width:600px){
-
-  #carouselExampleControls{
+/*--------------------INICIO DE MEDIA para tablets ----------------------*/
+@media only screen and (min-width: 600px) {
+  #carouselExampleControls {
     margin-top: 10px;
-  
-    }
-    .d-block{
-      height: 400px;
-    }
- .dropdown{
-   display: none;
- }  
+  }
+  .d-block {
+    height: 400px;
+  }
+  .dropdown {
+    display: none;
+  }
   #iconosDeRedes {
     display: block;
     grid-area: iconos;
@@ -212,7 +194,6 @@ hr {
     justify-self: center;
     margin-bottom: 5px;
   }
-
 
   #menu {
     display: block;
@@ -230,7 +211,7 @@ hr {
     margin: auto;
     background-color: rgb(37, 19, 81);
   }
-  
+
   header {
     background: url(../fotos/fondo4.jpg);
     position: sticky;
@@ -245,20 +226,18 @@ hr {
     justify-items: end;
     align-items: center;
   }
-  
+
   #logo {
     grid-area: logo;
     height: 100%;
     justify-self: start;
     align-self: start;
   }
-  
+
   #loguito {
     height: 100%;
   }
-  
-  
-  
+
   a {
     text-decoration: none;
     color: white;
@@ -266,20 +245,20 @@ hr {
   a:visited {
     color: white;
   }
-  a:hover{
+  a:hover {
     color: white;
-}
+  }
   ul {
     list-style-type: none;
   }
-  
+
   li {
     display: inline-block;
     font-family: Monoton;
     font-size: 10px;
     margin-inline: 3px;
   }
-  
+
   h1 {
     background: #7d2e68;
     color: rgb(255, 255, 255);
@@ -287,7 +266,7 @@ hr {
     margin-top: 50px;
     font-size: 30px;
   }
-  
+
   h2 {
     background: #7d2e68;
     color: white;
@@ -296,7 +275,7 @@ hr {
     margin-bottom: 5px;
     font-size: 30px;
   }
-  
+
   h3 {
     background: #7d2e68;
     color: white;
@@ -305,7 +284,7 @@ hr {
     margin-bottom: 5px;
     font-size: 30px;
   }
-  
+
   .parrafoQuienes {
     font-size: 15px;
     text-align: center;
@@ -314,21 +293,21 @@ hr {
   .parrafoContacto {
     font-size: 15px;
   }
-  
+
   label {
     font-size: 13px;
   }
-  
+
   footer {
     font-family: Helvetica;
     font-size: 7px;
     margin-bottom: 5px;
   }
-  
+
   .icono {
     height: 35px;
   }
-  
+
   button,
   input,
   label,
@@ -336,9 +315,8 @@ hr {
   textarea {
     margin-bottom: 15px;
   }
-  
-  #fotosProductos{
-   
+
+  #fotosProductos {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -346,49 +324,40 @@ hr {
     width: 100%;
     font-size: 12px;
   }
-  .producto{
+  .producto {
     width: 80%;
   }
-  
+
   div a .producto {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
-  
-  #contacto{
+
+  #contacto {
     width: 100%;
   }
-  
-  #comments{
+
+  #comments {
     width: 90%;
   }
-  
+
   hr {
     margin-top: 100px;
+  }
 }
-
- }
 
 /*---------------------Fin de media---------------------------------------*/
 
-
-
-
-
-
-
-
 /*--------------------INICIO DE MEDIA Para escritorio 1200----------------------*/
 @media only screen and (min-width: 1200px) {
-  #carouselExampleControls{
+  #carouselExampleControls {
     margin-top: 10px;
-  
-    }
-    .d-block{
-      height: 500px;
-    }
-  .dropdown{
+  }
+  .d-block {
+    height: 500px;
+  }
+  .dropdown {
     display: none;
   }
 
@@ -413,7 +382,6 @@ hr {
     grid-area: iconos;
     align-self: end;
     margin-bottom: 5px;
-    
   }
 
   #menu {
@@ -435,8 +403,8 @@ hr {
     color: white;
   }
 
-  a:hover{
-      color: white;
+  a:hover {
+    color: white;
   }
   ul {
     list-style-type: none;
@@ -504,14 +472,12 @@ hr {
   }
 
   #fotosProductos {
-    
     flex-direction: row;
     font-size: 20px;
-  
   }
-.producto{
-  width: 500px;
-}
+  .producto {
+    width: 500px;
+  }
 
   div a .producto {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -537,27 +503,24 @@ hr {
   hr {
     margin-top: 100px;
   }
-  
-#contacto{
-  font-size: 20px;
-}
+
+  #contacto {
+    font-size: 20px;
+  }
   .parrafoContacto {
     font-size: 20px;
   }
 
-  #comments{
+  #comments {
     width: 70%;
   }
   label {
     font-size: 15px;
   }
 
-header{
-  position: sticky;
+  header {
+    position: sticky;
+  }
 }
-
-  
-}
-
 
 /*---------------------Fin de media---------------------------------------*/

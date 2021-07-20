@@ -1,19 +1,15 @@
 /*----------------------------------------comienzo CSS para 320pixeles-----------------------------*/
 
-#quienes{
+#quienes {
   margin-bottom: 40px;
- 
 }
-
 
 .parrafoContacto {
   font-size: 20px;
 }
- .parrafoQuienes{
-    font-size: 15px;
-   
-   
-  }
+.parrafoQuienes {
+  font-size: 15px;
+}
 label {
   font-size: 15px;
 }
@@ -26,18 +22,15 @@ textarea {
   margin-bottom: 15px;
 }
 
-#fotosProductos{
- 
+#fotosProductos {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
   font-size: 15px;
-
-  
 }
-.producto{
+.producto {
   width: 80%;
 }
 
@@ -47,32 +40,33 @@ div a .producto {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-#contacto{
+#contacto {
   width: 100%;
 }
 
-#comments{
+#comments {
   width: 90%;
 }
 /*----------------------------------------------------------------FIN pantalla 320---------------------------------------------------------------------------------*/
 
 /*INICIO media 600px*/
-@media only screen and (min-width:600px){
+@media only screen and (min-width: 600px) {
+  #fotosProductos {
+    font-size: 20px;
+  }
 
-  #fotosProductos{font-size: 20px;}
-
-  .parrafoQuienes{font-size: 18px;}
-
+  .parrafoQuienes {
+    font-size: 18px;
+  }
 }
 /*----------------------------------------------------------------FIN MEDIA 600PX---------------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 1200px){
-
+@media only screen and (min-width: 1200px) {
   #fotosProductos {
     flex-direction: row;
     font-size: 20px;
   }
-  .producto{
+  .producto {
     width: 500px;
   }
 
@@ -91,25 +85,18 @@ div a .producto {
     transition: all 1s;
   }
 
-  #contacto{
+  #contacto {
     font-size: 20px;
   }
-    .parrafoContacto {
-      font-size: 20px;
-    }
-  
-    #comments{
-      width: 70%;
-    }
-    
-    label {
-      font-size: 18px;
-    }
+  .parrafoContacto {
+    font-size: 20px;
+  }
 
+  #comments {
+    width: 70%;
+  }
 
-
-
-
-
-
+  label {
+    font-size: 18px;
+  }
 }
