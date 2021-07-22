@@ -211,6 +211,10 @@ header {
   header #menu {
     display: none; }
 
+.parrafoInfo {
+  color: black;
+  background-color: white; }
+
 body {
   font-family: calibri;
   font-weight: 900;
