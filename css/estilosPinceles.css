@@ -2,8 +2,6 @@
 /*Variable para Body*/
 /* Variables para los H*/
 /*Variables para Links*/
-/*Variables para Header*/
-/**/
 /*Variables para botones*/
 /*variable Menu grande*/
 /*Inicio de SCSS importados*/
@@ -30,7 +28,7 @@ textarea {
 #fotosProductos {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   font-size: 15px; }
@@ -63,16 +61,25 @@ div a .producto {
     flex-direction: row;
     font-size: 20px; }
   .producto {
-    width: 500px; }
+    width: 500px;
+    transform: scale(1);
+    transition: all 1s; }
+  /*
   #rodillos:hover {
-    transform: scale(1.1);
-    transition: all 1s; }
+    transform: scale(1.0);
+    transition: all 1s;
+  }
+
   #pinceles:hover {
-    transform: scale(1.1);
-    transition: all 1s; }
+    transform: scale(1.0);
+    transition: 2s;
+  }
+
   #otros:hover {
-    transform: scale(1.1);
-    transition: all 1s; }
+    transform: scale(1.0);
+    transition: all 1s;
+  }
+*/
   #contacto {
     font-size: 20px; }
   .parrafoContacto {
@@ -92,7 +99,8 @@ div a .producto {
   margin-top: 30px; }
 
 .producto {
-  width: 80%;
+  width: 400px;
+  height: 400px;
   justify-content: space-evenly;
   margin: 5px; }
 
@@ -176,7 +184,6 @@ div a .producto {
 header {
   width: 100%;
   z-index: +1;
-  background: url(../fotos/.jpg);
   height: 150px;
   top: 0%;
   display: grid;
@@ -211,9 +218,12 @@ header {
   header #menu {
     display: none; }
 
-.parrafoInfo {
-  color: white; }
-
+/*
+.parrafoInfo{
+  
+  color: white;
+ 
+}*/
 body {
   font-family: calibri;
   font-weight: 900;

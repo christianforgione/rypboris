@@ -16,8 +16,6 @@ $colorTextoH: white;
 $colorLink: white;
 $linkVisitado: white;
 
-/*Variables para Header*/
-/*$fondoHeader: url(../fotos/.jpg); */
 
 /*Variables para botones*/
 $textoBoton: white;
@@ -43,7 +41,7 @@ $fuenteLi: monoton;
 header {
   width: 100%;
   z-index: +1;
-  background: $fondoHeader;
+ 
  
   height: 150px;
   top: 0%;

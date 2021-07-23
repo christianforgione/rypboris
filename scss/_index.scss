@@ -25,10 +25,11 @@ textarea {
 #fotosProductos {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   font-size: 15px;
+  
 }
 .producto {
   width: 80%;
@@ -68,23 +69,25 @@ div a .producto {
   }
   .producto {
     width: 500px;
+    transform: scale(1.0);
+    transition: all 1s;
   }
-
+/*
   #rodillos:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
     transition: all 1s;
   }
 
   #pinceles:hover {
-    transform: scale(1.1);
-    transition: all 1s;
+    transform: scale(1.0);
+    transition: 2s;
   }
 
   #otros:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
     transition: all 1s;
   }
-
+*/
   #contacto {
     font-size: 20px;
   }
