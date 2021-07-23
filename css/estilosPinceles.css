@@ -3,6 +3,7 @@
 /* Variables para los H*/
 /*Variables para Links*/
 /*Variables para Header*/
+/**/
 /*Variables para botones*/
 /*variable Menu grande*/
 /*Inicio de SCSS importados*/
@@ -175,8 +176,7 @@ div a .producto {
 header {
   width: 100%;
   z-index: +1;
-  background: url(../fotos/fondo4.jpg);
-  position: sticky;
+  background: url(../fotos/.jpg);
   height: 150px;
   top: 0%;
   display: grid;
@@ -212,17 +212,16 @@ header {
     display: none; }
 
 .parrafoInfo {
-  color: #000000;
-  background-color: white; }
+  color: white; }
 
 body {
   font-family: calibri;
   font-weight: 900;
   font-size: 20px;
-  color: black;
+  color: white;
   text-align: center;
   margin: auto;
-  background-image: url(../fotos/fondo14.jpg);
+  background-image: url(../fotos/back3.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
@@ -230,13 +229,13 @@ body {
   background: none; }
 
 h1 {
-  background: #000000;
+  background: black;
   color: white;
   font-family: Russo One, calibri;
   font-size: 30px; }
 
 h2 {
-  background: #000000;
+  background: black;
   color: white;
   font-family: Russo One, calibri;
   margin-top: 50px;
@@ -244,7 +243,7 @@ h2 {
   font-size: 30px; }
 
 h3 {
-  background: #000000;
+  background: black;
   color: white;
   font-family: Russo One, calibri;
   margin-top: 50px;

@@ -1,14 +1,14 @@
 /* Antes de empezar hacer en CMD npm run watch-css dentro de la carpeta del sitio*/
 
 /*Variable para Body*/
-$colorBody: url(../fotos/fondo14.jpg);
+$colorBody: url(../fotos/back3.jpg);
 
 $fuenteBody: calibri;
-$textoColor: black;
+$textoColor: white;
 
 /* Variables para los H*/
 $fuenteH: Russo One, calibri;
-$colorFondoH: #000000;
+$colorFondoH: black;
 $colorFondoHalterno: (186, 189, 141);
 $colorTextoH: white;
 
@@ -17,7 +17,7 @@ $colorLink: white;
 $linkVisitado: white;
 
 /*Variables para Header*/
-$fondoHeader: url(../fotos/fondo4.jpg);
+/*$fondoHeader: url(../fotos/.jpg); */
 
 /*Variables para botones*/
 $textoBoton: white;
@@ -44,7 +44,7 @@ header {
   width: 100%;
   z-index: +1;
   background: $fondoHeader;
-  position: sticky;
+ 
   height: 150px;
   top: 0%;
   display: grid;
@@ -91,11 +91,12 @@ header {
     display: none;
   }
 }
+/*
 .parrafoInfo{
   
-  color: #000000;
-  background-color: white ;
-}
+  color: white;
+ 
+}*/
 
 body {
   font-family: $fuenteBody;
