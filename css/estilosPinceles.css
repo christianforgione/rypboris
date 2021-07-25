@@ -113,10 +113,14 @@ div a .producto {
 /*---------------------------------------------------------- Inicio Media 600px--------------------------------------------------*/
 @media only screen and (min-width: 600px) {
   .producto {
-    width: 60%;
     justify-content: stretch; }
   .producto:hover {
-    transform: scale(1.1); } }
+    transform: scale(1.1); }
+  #carruselProducto {
+    display: flex;
+    justify-content: center; }
+    #carruselProducto #carouselExampleIndicators {
+      width: 70%; } }
 
 /*----------------------------------------------------------FIN MEDIA 600px------------------------------------------------------*/
 /*----------------------------------------------------------Inicio Media 1080px--------------------------------------------------*/
@@ -134,7 +138,12 @@ div a .producto {
     width: 80%;
     justify-content: stretch; }
   .producto:hover {
-    transform: scale(1.1); } }
+    transform: scale(1.1); }
+  #carouselExampleIndicators {
+    width: 50%;
+    justify-content: center; }
+  #carruselProducto #carouselExampleIndicators {
+    width: 80%; } }
 
 /*----------------------------------------------------------FIN MEDIA 1080px------------------------------------------------------*/
 /* .card{
@@ -273,15 +282,9 @@ footer p {
   font-size: 10px; }
 
 #carrusel {
-  display: flex;
   width: 100%;
-  justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px; }
-  #carrusel #carouselExampleControls {
-    width: 80%; }
-  #carrusel #carouselExampleIndicators {
-    width: 80%; }
 
 hr {
   margin-top: 100px; }
@@ -320,10 +323,9 @@ hr {
       margin-inline: 5px; }
     header ul li:hover {
       transform: scale(1.1); }
-  #carrusel #carouselExampleControls {
-    width: 70%; }
-  #carrusel #carouselExampleIndicators {
-    width: 70%; } }
+  .d-block {
+    width: 500px;
+    height: 500px; } }
 
 /*---------------------------------------------------------------------------FIN MEDIA 600px---------------------------------------------------------------------------*/
 /*INICIO MEDIA 1080PX*/
@@ -333,10 +335,6 @@ hr {
   header #menu li {
     font-size: 20px; }
   .dropdown {
-    display: none; }
-  #carrusel #carouselExampleControls {
-    width: 50%; }
-  #carrusel #carouselExampleIndicators {
-    width: 50%; } }
+    display: none; } }
 
 /*---------------------------------------------------------------------------FIN MEDIA 1080px---------------------------------------------------------------------------*/

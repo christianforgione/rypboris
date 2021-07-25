@@ -17,18 +17,27 @@ div a .producto {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+  
 }
 /*----------------------------------------------------------FIN MEDIA 320px------------------------------------------------------*/
 
 /*---------------------------------------------------------- Inicio Media 600px--------------------------------------------------*/
 @media only screen and (min-width: 600px) {
   .producto {
-    width: 60%;
+   
     justify-content: stretch;
   }
   .producto:hover {
     transform: scale(1.1);
   }
+#carruselProducto{display: flex;
+    justify-content: center;
+  #carouselExampleIndicators{
+    width: 70%;
+  }
+}
+ 
 }
 /*----------------------------------------------------------FIN MEDIA 600px------------------------------------------------------*/
 
@@ -50,6 +59,17 @@ div a .producto {
   }
   .producto:hover {
     transform: scale(1.1);
+  }
+  #carouselExampleIndicators{
+    width: 50%;
+    justify-content: center;
+  }
+  #carruselProducto{
+    
+    #carouselExampleIndicators{
+      width: 80%;
+    }
+    
   }
 }
 

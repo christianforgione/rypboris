@@ -157,17 +157,9 @@ footer {
 }
 
 #carrusel {
-  display: flex;
   width: 100%;
-  justify-content: center;
   margin-top: 10px;
-  margin-bottom: 10px;
-  #carouselExampleControls {
-    width: 80%;
-  }
-  #carouselExampleIndicators {
-    width: 80%;
-  }
+  margin-bottom: 10px; 
 }
 
 hr {
@@ -226,14 +218,11 @@ hr {
       }
     }
   }
-  #carrusel {
-    #carouselExampleControls {
-      width: 70%;
-    }
-    #carouselExampleIndicators {
-      width: 70%;
-    }
+  .d-block{
+    width: 500px;
+    height: 500px;
   }
+  
 }
 /*---------------------------------------------------------------------------FIN MEDIA 600px---------------------------------------------------------------------------*/
 
@@ -257,14 +246,8 @@ hr {
     display: none;
   }
 
-  #carrusel {
-    #carouselExampleControls {
-      width: 50%;
-    }
-    #carouselExampleIndicators {
-      width: 50%;
-    }
-  }
+ 
+ 
 }
 
 /*---------------------------------------------------------------------------FIN MEDIA 1080px---------------------------------------------------------------------------*/
