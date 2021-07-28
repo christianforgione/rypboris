@@ -115,12 +115,7 @@ div a .producto {
   .producto {
     justify-content: stretch; }
   .producto:hover {
-    transform: scale(1.1); }
-  #carruselProducto {
-    display: flex;
-    justify-content: center; }
-    #carruselProducto #carouselExampleIndicators {
-      width: 70%; } }
+    transform: scale(1.1); } }
 
 /*----------------------------------------------------------FIN MEDIA 600px------------------------------------------------------*/
 /*----------------------------------------------------------Inicio Media 1080px--------------------------------------------------*/
@@ -138,12 +133,7 @@ div a .producto {
     width: 80%;
     justify-content: stretch; }
   .producto:hover {
-    transform: scale(1.1); }
-  #carouselExampleIndicators {
-    width: 50%;
-    justify-content: center; }
-  #carruselProducto #carouselExampleIndicators {
-    width: 80%; } }
+    transform: scale(1.1); } }
 
 /*----------------------------------------------------------FIN MEDIA 1080px------------------------------------------------------*/
 /* .card{
@@ -289,6 +279,13 @@ footer p {
 hr {
   margin-top: 100px; }
 
+#carruselProducto {
+  display: flex;
+  justify-content: center; }
+
+#carouselExampleIndicators {
+  width: 100%; }
+
 /*---------------------------------------------------------------------------FIN SCSS PARA 320px-----------------------------------------------------------------------*/
 /*Inicio Media para 600px*/
 @media only screen and (min-width: 600px) {
@@ -335,6 +332,8 @@ hr {
   header #menu li {
     font-size: 20px; }
   .dropdown {
-    display: none; } }
+    display: none; }
+  #carouselExampleIndicators {
+    width: 50%; } }
 
 /*---------------------------------------------------------------------------FIN MEDIA 1080px---------------------------------------------------------------------------*/

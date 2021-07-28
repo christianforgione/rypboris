@@ -165,7 +165,11 @@ footer {
 hr {
   margin-top: 100px;
 }
-
+#carruselProducto{display: flex; 
+  justify-content: center; }
+#carouselExampleIndicators{
+  width: 100%;
+}
 /*---------------------------------------------------------------------------FIN SCSS PARA 320px-----------------------------------------------------------------------*/
 
 /*Inicio Media para 600px*/
@@ -245,9 +249,15 @@ hr {
   .dropdown {
     display: none;
   }
+ 
 
+  #carouselExampleIndicators{
+    width:50%;
+  }
+  
+    
+  }
  
- 
-}
+
 
 /*---------------------------------------------------------------------------FIN MEDIA 1080px---------------------------------------------------------------------------*/

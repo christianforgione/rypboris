@@ -31,14 +31,10 @@ div a .producto {
   .producto:hover {
     transform: scale(1.1);
   }
-#carruselProducto{display: flex;
-    justify-content: center;
-  #carouselExampleIndicators{
-    width: 70%;
-  }
+
 }
  
-}
+
 /*----------------------------------------------------------FIN MEDIA 600px------------------------------------------------------*/
 
 /*----------------------------------------------------------Inicio Media 1080px--------------------------------------------------*/
@@ -60,17 +56,7 @@ div a .producto {
   .producto:hover {
     transform: scale(1.1);
   }
-  #carouselExampleIndicators{
-    width: 50%;
-    justify-content: center;
-  }
-  #carruselProducto{
-    
-    #carouselExampleIndicators{
-      width: 80%;
-    }
-    
-  }
+  
 }
 
 /*----------------------------------------------------------FIN MEDIA 1080px------------------------------------------------------*/
